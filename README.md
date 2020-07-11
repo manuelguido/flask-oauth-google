@@ -1,2 +1,2 @@
 # flask-oauth-google
-An login system with Flask, oAuth and Google
+A login system with Flask, oAuth and Google
