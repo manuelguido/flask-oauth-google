@@ -1,4 +1,4 @@
-# flask-oauth-google
+# Flask + OAuth + Google
 <h4>A login system with Flask, oAuth and Google</h4>
 
 
