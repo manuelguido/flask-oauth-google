@@ -32,7 +32,7 @@ google = oauth.register(
     authorize_url='https://accounts.google.com/o/oauth2/auth',
     authorize_params=None,
     api_base_url='https://www.googleapis.com/oauth2/v1/',
-    userinfo_endpoint='https://openidconnect.googleapis.com/v1/userinfo',  # This is only needed if using openId to fetch user info
+    userinfo_endpoint='https://openidconnect.googleapis.com/v1/userinfo',
     client_kwargs={'scope': 'openid email profile'},
 )
 
@@ -51,7 +51,7 @@ def home():
 #---------------------------------------
 @app.route('/google_login')
 def login():
-    google = oauth.create_client('google')  # create the google oauth client
+    google = oauth.create_client('google')
     redirect_uri = url_for('authorize', _external=True)
     return google.authorize_redirect(redirect_uri)
 
