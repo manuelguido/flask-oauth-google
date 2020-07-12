@@ -1,0 +1,41 @@
+/* Main app */
+html, body {
+    background: #f1f3f5;
+    min-height: 100vh;
+}
+#app {
+    color: #777;
+    font-family: 'Nunito', sans-serif;
+    font-style: none !important;
+}
+@media(min-width: 1200px) {
+    .navbar {
+        padding: 1em 200px;
+    }
+}
+.navbar-brand {
+    color: #999 !important;
+}
+.profile-image {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+.footer {
+    border-top: 1px solid #e1e1e1;
+}
+
+/* Welcome page */
+#welcome, #title {
+    margin: 0 auto 80px auto;
+}
+#welcome {
+    color: #d1d1d1;
+    font-size: 5em;
+    font-weight: 600;
+}
+#title {
+    color: #cbcbcb;
+    font-size: 3em;
+    font-weight: 400;
+}
