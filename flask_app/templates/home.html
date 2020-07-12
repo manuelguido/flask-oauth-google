@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<!-- Container -->
+<div class="container-fluid">
+    <!-- Row -->
+    <div class="row justify-content-center py-5 my-5">
+        <!-- Col -->
+        <div class="col-12 col-lg-9 text-center">
+            <img src="{{user.picture}}" class="profile-image mb-5">
+            <h1 class="h3 mb-5">Hello <span class="text-primary">{{user.name}}</span>, you have logged in.</h1>
+            <a href="/logout" class="btn btn-light py-3 px-4 mb-5"><i class="fas fa-sign-out-alt mr-3"></i>Sign out</a>
+            <p>
+                This application does not use any of your information for any use.<br>
+                It is just an free example for everybody to use.<br>
+                By logging in your information is used for creating session variables, which are destroyed once you log out. 
+            </p>
+        </div>
+        <!-- /.Col -->
+    </div>
+    <!-- /.Row -->
+</div>
+<!-- /.Container -->
+{% endblock %}
