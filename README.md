@@ -1,7 +1,12 @@
 # Flask + OAuth + Google
-<h4>A login system with Flask, oAuth and Google</h4>
+<h2 align="center">A login system with Flask, oAuth and Google</h2>
 
+<p align="center">
+  <a href="http://lucisfoodhouse.com">
+    <img width="100%" src="/gitimages/mobile-artwork.png">
+  </a>
+</p>
 
-1) Log into your google account and go to the following link: 
+# Contact
 
-    https://console.developers.google.com/apis/credentials
+ - manuelguido.m@gmail.com
